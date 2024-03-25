@@ -66,11 +66,11 @@ $(document).ready(function () {
     _data.forEach((item) => {
       //   console.log(item);
       const tempTag = `
-          <div class="swiper-slide">
-            <div class="banner-content" data-id="${item.id}" style="background: url('${path}/${item.imgpath}') no-repeat center; background-size: cover;">
-              <a href="${item.link}"></a>
-            </div>
-          </div>`;
+        <div class="swiper-slide">
+          <div class="banner-content" data-id="${item.id}" style="background: url('${path}/${item.imgpath}') no-repeat center; background-size: cover;">
+            <a href="${item.link}"></a>
+          </div>
+        </div>`;
 
       tag += tempTag;
     });
@@ -207,19 +207,19 @@ $(document).ready(function () {
     const path = "./images";
     _data.forEach((item) => {
       const tempTag = `
-        <a href="${item.link}" data-id="${item.id}" class="content-list-link">
-          <div class="content-list-img">
-            <div class="content-list-thumb" style="background: url('${path}/${item.imgpath}') no-repeat center; background-size: cover;"></div>
-          </div>
-          <div class="content-list-txt">
-            <span class="content-list-cate" style="color:${item.txtcolor}">
-              <img src="${path}/icon/${item.icon}" alt="크루" />
-              ${item.category}
-            </span>
-            <h4 class="content-list-title">${item.title}</h4>
-            <span class="content-list-date">${item.day}</span>
-          </div>
-        </a>`;
+      <a href="${item.link}" data-id="${item.id}" class="content-list-link">
+        <div class="content-list-img">
+          <div class="content-list-thumb" style="background: url('${path}/${item.imgpath}') no-repeat center; background-size: cover;"></div>
+        </div>
+        <div class="content-list-txt">
+          <span class="content-list-cate" style="color:${item.txtcolor}">
+            <img src="${path}/icon/${item.icon}" alt="크루" />
+            ${item.category}
+          </span>
+          <h4 class="content-list-title">${item.title}</h4>
+          <span class="content-list-date">${item.day}</span>
+        </div>
+      </a>`;
 
       tag += tempTag;
     });
@@ -253,19 +253,19 @@ $(document).ready(function () {
     const path = "./images";
     _data.forEach((item) => {
       const tempTag = `
-        <a href="${item.link}" data-id="${item.id}" class="content-list-link">
-          <div class="content-list-img">
-            <div class="content-list-thumb" style="background: url('${path}/${item.imgpath}') no-repeat center; background-size: cover;"></div>
-          </div>
-          <div class="content-list-txt">
-            <span class="content-list-cate" style="color:${item.txtcolor}">
-              <img src="${path}/icon/${item.icon}" alt="크루" />
-              ${item.category}
-            </span>
-            <h4 class="content-list-title">${item.title}</h4>
-            <span class="content-list-date">${item.day}</span>
-          </div>
-        </a>`;
+      <a href="${item.link}" data-id="${item.id}" class="content-list-link">
+        <div class="content-list-img">
+          <div class="content-list-thumb" style="background: url('${path}/${item.imgpath}') no-repeat center; background-size: cover;"></div>
+        </div>
+        <div class="content-list-txt">
+          <span class="content-list-cate" style="color:${item.txtcolor}">
+            <img src="${path}/icon/${item.icon}" alt="크루" />
+            ${item.category}
+          </span>
+          <h4 class="content-list-title">${item.title}</h4>
+          <span class="content-list-date">${item.day}</span>
+        </div>
+      </a>`;
 
       tag += tempTag;
     });
@@ -308,12 +308,12 @@ $(document).ready(function () {
     _data.forEach((item) => {
       // console.log(item);
       const tempTag = `
-        <div class="swiper-slide">
-          <a href="${item.link}" data-id="${item.id}" class="main-card" style="background: url('${path}/${item.imgpath}') no-repeat center;
-          background-size: cover;">
-            <p class="main-card-cate">${item.cardname} <span>${item.cardno}</span></p>
-          </a>
-        </div>`;
+      <div class="swiper-slide">
+        <a href="${item.link}" data-id="${item.id}" class="main-card" style="background: url('${path}/${item.imgpath}') no-repeat center;
+        background-size: cover;">
+          <p class="main-card-cate">${item.cardname} <span>${item.cardno}</span></p>
+        </a>
+      </div>`;
 
       tag += tempTag;
     });
