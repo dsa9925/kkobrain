@@ -1,4 +1,4 @@
-// File: D:\student\정화섭\kkobrain\src\app\layout.tsx
+// File: D:\Students(도현)\김도현\kkobrain\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
