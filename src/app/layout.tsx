@@ -17,6 +17,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           name="naver-site-verification"
           content="490363910259f4b423644aa9773ed3b629f46d7e"
         />
+        <link rel="canonical" href="https://kkobrain-topaz.vercel.app"></link>
+        <meta
+          name="google-site-verification"
+          content="LftvpRZFaPLaPPbKky-p2vIjFlp4tueQUiiXY5Jtdw8"
+        />
       </head>
       <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
