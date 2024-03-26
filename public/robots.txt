@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://health-center-devgreact.vercel.app
+
+# Sitemaps
+Sitemap: https://health-center-devgreact.vercel.app/sitemap.xml
