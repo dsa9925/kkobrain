@@ -10,7 +10,7 @@ module.exports = {
     "prettier",
     "plugin:@next/next/recommended",
     "eslint:recommended",
-    "next",
+    "next/core-web-vitals",
   ],
   overrides: [],
   parserOptions: {
