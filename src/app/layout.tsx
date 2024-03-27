@@ -1,5 +1,5 @@
 // index.html 역할
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -22,6 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           name="google-site-verification"
           content="LftvpRZFaPLaPPbKky-p2vIjFlp4tueQUiiXY5Jtdw8"
         />
+        <GoogleAnalytics gaId="G-8LB2Q2NH49" />
       </head>
       <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
